@@ -9,3 +9,8 @@
     --title: 'Playwrite AT', sans-serif;
     --text: 'Roboto', sans-serif;
 }
+
+h1 {
+    color: var(--primary-color);
+    font-family: var(--title);
+}
