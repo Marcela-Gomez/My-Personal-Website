@@ -10,7 +10,22 @@
     --text: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: var(--primary-color);
+.navbar-title {
+    color: var(--quaternary-color);
     font-family: var(--title);
+    font-size: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
 }
