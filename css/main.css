@@ -11,7 +11,7 @@
 }
 
 .navbar-title {
-    color: var(--quaternary-color);
+    color: var(--primary-color);
     font-family: var(--title);
     font-size: 2rem;
 }
@@ -25,7 +25,32 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary-color);
+    background-color: var(--quaternary-color);
     align-items: center;
     padding: 1rem;
+}
+
+.header {
+    background: #FFAFBD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title {
+    font-family: var(--title);
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.header-subtitle {
+    font-family: var(--text);
+    font-size: 1rem;
 }
